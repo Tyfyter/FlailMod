@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32526.322
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FlailMod", "FlailMod.csproj", "{D4119F16-48C3-482F-94E0-FAEC287B9EF6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D4119F16-48C3-482F-94E0-FAEC287B9EF6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4119F16-48C3-482F-94E0-FAEC287B9EF6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D4119F16-48C3-482F-94E0-FAEC287B9EF6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D4119F16-48C3-482F-94E0-FAEC287B9EF6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {41A850E9-F345-4CC6-8497-E09826E409AE}
+	EndGlobalSection
+EndGlobal

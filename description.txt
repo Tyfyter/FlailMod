@@ -1,0 +1,3 @@
+This mod aims to rework the flail subclass, turning into a viable and fun challenge and fully utilizing all of its mechanics.
+It adds a charge bar to flail attacks, adding up to 200% damage to fully charged hits, and accessories to go with it.
+The Flairon, Anchor, Blue Moon and Drippler Crippler have also been reworked to use the charge bar.

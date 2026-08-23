@@ -1,0 +1,5 @@
+C:\Users\samue\Documents\My Games\Terraria\tModLoader\ModSources\FlailMod\obj\Debug\net6.0\FlailMod.csproj.AssemblyReference.cache
+C:\Users\samue\Documents\My Games\Terraria\tModLoader\ModSources\FlailMod\obj\Debug\net6.0\FlailMod.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\samue\Documents\My Games\Terraria\tModLoader\ModSources\FlailMod\obj\Debug\net6.0\FlailMod.AssemblyInfoInputs.cache
+C:\Users\samue\Documents\My Games\Terraria\tModLoader\ModSources\FlailMod\obj\Debug\net6.0\FlailMod.AssemblyInfo.cs
+C:\Users\samue\Documents\My Games\Terraria\tModLoader\ModSources\FlailMod\obj\Debug\net6.0\FlailMod.csproj.CoreCompileInputs.cache

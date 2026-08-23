@@ -1,0 +1,2 @@
+- Added Chinese localisation (by Chevalier)
+- Added Russian localisation (by Alino4kaHvoshch)

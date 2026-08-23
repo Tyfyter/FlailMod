@@ -1,0 +1,61 @@
+Projectiles: {
+	AnchorProjectile.DisplayName: 锚
+	FlaironProjectile.DisplayName: 猪鲨链球
+	BallOhurtProjectile.DisplayName: 链球
+	TheMeatballProjectile.DisplayName: 血肉之球
+	BlueMoonProjectile.DisplayName: 蓝月
+	SunfuryProjectile.DisplayName: 阳炎之怒
+	DaoOfPowProjectile.DisplayName: 太极连枷
+	DripplerCripplerProjectile.DisplayName: 滴滴怪致残者
+	FlowerPowProjectile.DisplayName: 花之力
+}
+
+Items: {
+	AmberCarving: {
+		DisplayName: 琥珀雕刻
+		Tooltip: 蓄力攻击强化50%
+	}
+
+	GoblinGrease: {
+		DisplayName: 哥布林润滑脂
+		Tooltip: 连枷蓄力速度加快25%
+	}
+
+	AmberGrease: {
+		DisplayName: 琥珀润滑脂
+		Tooltip:
+			'''
+			蓄力攻击强化50%
+			连枷蓄力速度加快25%
+			'''
+	}
+
+	MechanicalGrease: {
+		DisplayName: 机械润滑脂
+		Tooltip:
+			'''
+			蓄力攻击强化80%
+			连枷蓄力速度加快30%
+			'''
+	}
+
+	ScarabGrease: {
+		DisplayName: 甲虫润滑脂
+		Tooltip:
+			'''
+			蓄力攻击强化100%
+			连枷蓄力速度加快50%
+			挥舞连枷时，所受伤害降低20%
+			蓄满力的连枷攻击恢复10点生命值
+			'''
+	}
+
+	ScarabIdol: {
+		DisplayName: 甲虫护符
+		Tooltip:
+			'''
+			挥舞连枷时，所受伤害降低20%
+			蓄满力的连枷攻击恢复10点生命值
+			'''
+	}
+}

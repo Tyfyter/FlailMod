@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "1P3QzpnFTU3WA1x+qMbBRjLSpm47f5A8fdhI1kL+w5lZoBXQe3maEi7Oa2Vrr4YDLNybyer9gBQNb0LKFW5VSw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\samue\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\FlailMod\\FlailMod.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\samue\\.nuget\\packages\\tmodloader.codeassist\\0.1.5\\tmodloader.codeassist.0.1.5.nupkg.sha512"
+  ],
+  "logs": []
+}
