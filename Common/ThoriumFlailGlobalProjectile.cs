@@ -30,7 +30,11 @@ namespace FlailMod.Common {
 						modPlayer.FLailCharge = 300f;
 
 					Vector2 direction = Vector2.Normalize(projectile.Center - player.Center);
-					projectile.position += direction * modPlayer.FLailCharge * 0.15f;
+					float distance = 0;//modPlayer.FLailCharge * 0.15f
+					int launchTimeLimit = 0, ricochetTimeLimit = 0;
+					float launchSpeed = 0, maxLaunchLength = 0, retractAcceleration = 0, maxRetractSpeed = 0, forcedRetractAcceleration = 0, maxForcedRetractSpeed = 0;
+					ProjectileLoader.FlailStats(projectile, ref launchTimeLimit, ref launchSpeed, ref maxLaunchLength, ref retractAcceleration, ref maxRetractSpeed, ref forcedRetractAcceleration, ref maxForcedRetractSpeed, ref ricochetTimeLimit, ref distance);
+					projectile.position += direction * distance;
 				}
 			}
 		}
@@ -45,7 +49,9 @@ namespace FlailMod.Common {
 					Vector2 mountedCenter = Main.player[projectile.owner].MountedCenter;
 					Vector2 shortestVectorFromPlayerToTarget = targetHitbox.ClosestPointInRect(mountedCenter) - mountedCenter;
 					shortestVectorFromPlayerToTarget.Y /= 0.8f; // Makes the hit area an ellipse. Vertical hit distance is smaller due to this math.
-					float hitRadius = 55f + modPlayer.FLailCharge * 0.15f + (projectile.type == ModContent.ProjectileType<Content.AnchorProjectile>() ? 16f : 0f); // The length of the semi-major radius of the ellipse (the long end)
+					float hitRadius = 55f;// + modPlayer.FLailCharge * 0.15f + (projectile.type == ModContent.ProjectileType<Content.AnchorProjectile>() ? 16f : 0f); // The length of the semi-major radius of the ellipse (the long end)
+					ProjectileLoader.FlailSpinCollisionRange(projectile, ref hitRadius);
+					if (projectile.type == ModContent.ProjectileType<Content.AnchorProjectile>()) hitRadius += 16f;
 					return shortestVectorFromPlayerToTarget.Length() <= hitRadius;
 				}
 			}
